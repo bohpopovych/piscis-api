@@ -1,0 +1,25 @@
+{
+  "name": "piscis-api",
+  "version": "1.0.0",
+  "description": "The Piscis API for the Piscis Application",
+  "main": "src/server.js",
+  "author": "Bohdan Popovych",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "watch": "SERVER_URL=http://localhost:5000 SECRET_KEY=4ORiK1a7NQ0NWU7EbINtc4vqbxW nodemon start"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mime": "^3.0.0",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
